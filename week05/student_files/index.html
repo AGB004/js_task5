@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        HTML | Window Print() method example
+    </title>
+ 
+    <script type="text/javascript">
+    </script>
+ 
+</head>
+ 
+<body>
+ 
+    <h2>Hi Users Check your choosen alphabet is a vowel or not.</h2>
+
+
+   <form id="form" onsubmit="return false;">
+    <input type="text" id="userInput" maxlength="1" placeholder="Enter any alphabet" />
+    <input  type="submit" onclick="checkVowel();" />
+</form>
+
+
+
+<script>
+function checkVowel() {
+    var variable = document.getElementById("userInput").value;
+   
+
+if(variable =="a" || variable=="A"){
+  alert(variable+" is vowel")
+}
+else if(variable =="e" || variable=="E"){
+   alert(variable+" is vowel")
+}
+else if(variable =="i" || variable=="I"){
+   alert(variable+" is vowel")
+}
+else if(variable =="o" || variable=="O"){
+   alert(variable+" is vowel")
+}
+else if(variable =="u" || variable=="U"){
+   alert(variable+" is vowel")
+}
+
+else{
+  alert(variable+" is not vowel")
+}
+}
+</script>
+ 
+</body>s
+<html>
